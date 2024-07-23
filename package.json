@@ -1,14 +1,32 @@
 {
-  "name": "shop-app",
-  "version": "1.0.0",
-  "description": "InterConnecta Shop App",
-  "main": "index.js",
+  "name": "appstore",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "vue": "^2.6.14",
+    "vuetify": "^2.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
